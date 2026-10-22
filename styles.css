@@ -1,0 +1,67 @@
+.screen {
+    position: relative;
+    width: 292px;
+    height: 633px;
+    background-color: black;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button {
+    position: absolute;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 4px 20px;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    background-color: #333333;
+    color: white;
+}
+
+.acc {
+    font-size: 25px;
+    background-color: #a5a5a5;
+    color: #0d0d0d;
+}
+
+.operater {
+    background-color: #ff9f0a;
+    color: white;
+}
+
+p {
+    
+    position: fixed;
+    height: 80px;
+    width: 270px;
+    top: 70px;
+    left: 10px;
+    text-align: right;
+    font-size: 78px;
+    border: solid;
+    border-color: black;
+    color: white;
+}
+
+img {
+    top: 8px;
+    left: 305px;
+
+    /* top: 800px; */
+    position: fixed;
+    filter: opacity(0.0);
+    width: 292px;
+    height: 633px;
+    border-radius: 25px;
+}
